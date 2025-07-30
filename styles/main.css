@@ -1,0 +1,245 @@
+:root {
+  --color-white: #fff;
+}
+
+body.fpl-ux-enhanced .main-navigation-wrapper {
+  position: relative;
+  top: 0;
+  padding-bottom: 0;
+}
+body.fpl-ux-enhanced .main-navigation-wrapper .top-nav__menu-item {
+  display: flex;
+  align-items: center;
+  height: 2.5rem;
+  padding: 0 0.5rem;
+}
+body.fpl-ux-enhanced .main-navigation-wrapper .top-nav__menu-link {
+  font-size: 1rem;
+}
+body.fpl-ux-enhanced .main-navigation-wrapper .main-nav {
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+}
+body.fpl-ux-enhanced .main-navigation-wrapper .main-nav__logo {
+  max-width: 8.6rem;
+  height: 3.2rem;
+}
+body.fpl-ux-enhanced .main-navigation-wrapper .main-nav__nav-item .main-nav__nav-item-link, body.fpl-ux-enhanced .main-navigation-wrapper .main-nav__nav-button {
+  padding: 0.4rem 0.8rem;
+  font-size: 1.4rem;
+}
+
+body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal > header, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal > header {
+  display: grid;
+  grid-template-columns: 20rem 1fr;
+  align-items: center;
+  border-radius: 0;
+}
+body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal > header > div, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal > header > div {
+  padding: 0.5rem 2.4rem;
+}
+body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal > header > div img, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal > header > div img {
+  height: 2.4rem;
+}
+body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal > header > nav ul, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal > header > nav ul {
+  background: unset;
+  border-radius: 0;
+  backdrop-filter: unset;
+}
+body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal > header + div:has([data-google-query-id]), body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal > header + div:has([data-google-query-id]) {
+  display: none;
+}
+body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal > header + div + div, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal > header + div + div {
+  grid-template-columns: 1fr 36rem;
+  padding-top: 0.8rem;
+}
+
+body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal ._16mjapo4 > section:first-child > div, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal ._16mjapo4 > section:first-child > div {
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal ._16mjapo4 > section:first-child > div > div, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal ._16mjapo4 > section:first-child > div > div {
+  gap: 0.5rem;
+}
+body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal ._16mjapo4 > section:first-child > div > div #page-title, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal ._16mjapo4 > section:first-child > div > div #page-title {
+  font-size: 2rem;
+}
+body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal ._16mjapo4 > section:first-child > div > div #page-title + div, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal ._16mjapo4 > section:first-child > div > div #page-title + div {
+  margin-top: -3.5rem;
+}
+body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal ._16mjapo4 > section:first-child > div > div #page-title + p, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal ._16mjapo4 > section:first-child > div > div #page-title + p {
+  font-size: 1.2rem;
+}
+body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > ul li, body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > [data-variant=transfers-basic] li, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > ul li, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > [data-variant=transfers-basic] li {
+  flex: unset;
+}
+body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > ul li button, body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > [data-variant=transfers-basic] li button, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > ul li button, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > [data-variant=transfers-basic] li button {
+  display: grid;
+  grid-template-columns: 1.5rem 1fr 7rem;
+  align-items: center;
+  gap: 0.7rem;
+  padding: 0.4rem 0.8rem;
+  width: max-content;
+  background-color: #7d5bff;
+}
+body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > ul li button span, body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > [data-variant=transfers-basic] li button span, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > ul li button span, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > [data-variant=transfers-basic] li button span {
+  margin-left: 0;
+}
+body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > ul + div > div, body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > [data-variant=transfers-basic] + div > div, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > ul + div > div, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > [data-variant=transfers-basic] + div > div {
+  margin: 0.2rem auto;
+  padding: 0;
+  background-color: unset;
+}
+body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > ul + div > div span, body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > [data-variant=transfers-basic] + div > div span, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > ul + div > div span, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > [data-variant=transfers-basic] + div > div span {
+  color: white;
+  font-size: 1rem;
+}
+body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > ul + div + div[role=status], body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > [data-variant=transfers-basic] + div + div[role=status], body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > ul + div + div[role=status], body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > [data-variant=transfers-basic] + div + div[role=status] {
+  max-width: unset;
+  margin: 0 auto 0.2rem auto;
+}
+body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > ul + div + div[role=status] > div > div, body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > [data-variant=transfers-basic] + div + div[role=status] > div > div, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > ul + div + div[role=status] > div > div, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > [data-variant=transfers-basic] + div + div[role=status] > div > div {
+  margin: 0 auto;
+  padding: 0.1rem 0.6rem 0.2rem 0.6rem;
+  background-color: white;
+  border-radius: 0.4rem;
+}
+body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > ul + div + div[role=status] > div > div span, body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > [data-variant=transfers-basic] + div + div[role=status] > div > div span, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > ul + div + div[role=status] > div > div span, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > [data-variant=transfers-basic] + div + div[role=status] > div > div span {
+  font-size: 1.2rem;
+}
+body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > ul + div + div, body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > ul + div + div[role=status] + div, body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > [data-variant=transfers-basic] + div + div, body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > [data-variant=transfers-basic] + div + div[role=status] + div, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > ul + div + div, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > ul + div + div[role=status] + div, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > [data-variant=transfers-basic] + div + div, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > [data-variant=transfers-basic] + div + div[role=status] + div {
+  width: max-content;
+}
+body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > ul + div + div > div button, body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > ul + div + div[role=status] + div > div button, body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > [data-variant=transfers-basic] + div + div > div button, body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > [data-variant=transfers-basic] + div + div[role=status] + div > div button, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > ul + div + div > div button, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > ul + div + div[role=status] + div > div button, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > [data-variant=transfers-basic] + div + div > div button, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > [data-variant=transfers-basic] + div + div[role=status] + div > div button {
+  flex: unset;
+  padding: 0.4rem 0.8rem;
+  font-size: 1.2rem;
+}
+body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > ul + div + div + div, body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > ul + div + div[role=status] + div + div, body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > [data-variant=transfers-basic] + div + div + div, body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > [data-variant=transfers-basic] + div + div[role=status] + div + div, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > ul + div + div + div, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > ul + div + div[role=status] + div + div, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > [data-variant=transfers-basic] + div + div + div, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > [data-variant=transfers-basic] + div + div[role=status] + div + div {
+  zoom: 0.75;
+  transform-origin: top center;
+}
+body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > ul + div + div + div button[data-pitch-element] picture + div > span, body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > ul + div + div[role=status] + div + div button[data-pitch-element] picture + div > span, body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > [data-variant=transfers-basic] + div + div + div button[data-pitch-element] picture + div > span, body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > [data-variant=transfers-basic] + div + div[role=status] + div + div button[data-pitch-element] picture + div > span, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > ul + div + div + div button[data-pitch-element] picture + div > span, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > ul + div + div[role=status] + div + div button[data-pitch-element] picture + div > span, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > [data-variant=transfers-basic] + div + div + div button[data-pitch-element] picture + div > span, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > [data-variant=transfers-basic] + div + div[role=status] + div + div button[data-pitch-element] picture + div > span {
+  font-size: 1.6rem;
+}
+body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > ul + div + div + div button[data-pitch-element] picture + div div span, body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > ul + div + div[role=status] + div + div button[data-pitch-element] picture + div div span, body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > [data-variant=transfers-basic] + div + div + div button[data-pitch-element] picture + div div span, body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > [data-variant=transfers-basic] + div + div[role=status] + div + div button[data-pitch-element] picture + div div span, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > ul + div + div + div button[data-pitch-element] picture + div div span, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > ul + div + div[role=status] + div + div button[data-pitch-element] picture + div div span, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > [data-variant=transfers-basic] + div + div + div button[data-pitch-element] picture + div div span, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > [data-variant=transfers-basic] + div + div[role=status] + div + div button[data-pitch-element] picture + div div span {
+  font-size: 1.25rem;
+}
+body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > ul + div + div + div > div, body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > ul + div + div[role=status] + div + div > div, body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > [data-variant=transfers-basic] + div + div + div > div, body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > [data-variant=transfers-basic] + div + div[role=status] + div + div > div, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > ul + div + div + div > div, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > ul + div + div[role=status] + div + div > div, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > [data-variant=transfers-basic] + div + div + div > div, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > [data-variant=transfers-basic] + div + div[role=status] + div + div > div {
+  align-items: center;
+}
+body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > ul + div + div + div > div > div, body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > ul + div + div[role=status] + div + div > div > div, body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > [data-variant=transfers-basic] + div + div + div > div > div, body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > [data-variant=transfers-basic] + div + div[role=status] + div + div > div > div, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > ul + div + div + div > div > div, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > ul + div + div[role=status] + div + div > div > div, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > [data-variant=transfers-basic] + div + div + div > div > div, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > [data-variant=transfers-basic] + div + div[role=status] + div + div > div > div {
+  max-width: 140rem;
+  gap: 4rem;
+}
+body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > ul + div + div + div + div:has(button), body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > ul + div + div[role=status] + div + div + div:has(button), body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > [data-variant=transfers-basic] + div + div + div + div:has(button), body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > [data-variant=transfers-basic] + div + div[role=status] + div + div + div:has(button), body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > ul + div + div + div + div:has(button), body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > ul + div + div[role=status] + div + div + div:has(button), body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > [data-variant=transfers-basic] + div + div + div + div:has(button), body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > [data-variant=transfers-basic] + div + div[role=status] + div + div + div:has(button) {
+  position: sticky;
+  bottom: 2rem;
+  padding: 0.4rem;
+  background: #1f0022;
+  border-radius: 24px;
+}
+body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > ul + div + div + div + div:has(button) button, body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > ul + div + div[role=status] + div + div + div:has(button) button, body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > [data-variant=transfers-basic] + div + div + div + div:has(button) button, body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > [data-variant=transfers-basic] + div + div[role=status] + div + div + div:has(button) button, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > ul + div + div + div + div:has(button) button, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > ul + div + div[role=status] + div + div + div:has(button) button, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > [data-variant=transfers-basic] + div + div + div + div:has(button) button, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > [data-variant=transfers-basic] + div + div[role=status] + div + div + div:has(button) button {
+  opacity: 1 !important;
+  box-shadow: 0 0 1.4rem rgba(31, 0, 34, 0.55);
+}
+body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > [data-variant=transfers-basic] > div, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > [data-variant=transfers-basic] > div {
+  justify-content: center;
+  max-width: 50rem;
+  margin: 0 auto;
+}
+body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > [data-variant=transfers-basic] > div > div, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > [data-variant=transfers-basic] > div > div {
+  gap: 0.6rem;
+  padding: 0;
+}
+body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > [data-variant=transfers-basic] > div > div h3, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > [data-variant=transfers-basic] > div > div h3 {
+  font-size: 1.2rem;
+}
+body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > [data-variant=transfers-basic] > div > div [role=status] > div, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > [data-variant=transfers-basic] > div > div [role=status] > div {
+  font-size: 1.6rem;
+  padding: 0.4rem 0.6rem 0.2rem 0.6rem;
+  border-radius: 0.4rem;
+}
+body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]):has(li[aria-label="Bench Boost chip"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > ul + div + div + div, body.fpl-ux-enhanced:has(button[aria-label="View player information"]):has(li[aria-label="Bench Boost chip"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > ul + div + div + div {
+  zoom: 0.65;
+}
+body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]):has(table[aria-label="Squad List"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > [data-variant=transfers-basic] + div + div + div, body.fpl-ux-enhanced:has(button[aria-label="View player information"]):has(table[aria-label="Squad List"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > [data-variant=transfers-basic] + div + div + div {
+  zoom: 1;
+  max-height: calc(100dvh - 22rem);
+  overflow: auto;
+}
+
+body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal > div:nth-child(3) > section, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal > div:nth-child(3) > section {
+  order: 3;
+}
+body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal > div:nth-child(3) > section > div, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal > div:nth-child(3) > section > div {
+  height: 100%;
+}
+body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal > div:nth-child(3) > section > div.nxc5e30, body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal > div:nth-child(3) > section > div > div.nxc5e30, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal > div:nth-child(3) > section > div.nxc5e30, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal > div:nth-child(3) > section > div > div.nxc5e30 {
+  position: sticky;
+  top: 1rem;
+  right: 0;
+  max-height: calc(100dvh - 12rem);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: unset;
+  overflow: auto;
+}
+body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal > div:nth-child(3) > section > div.nxc5e30 > div, body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal > div:nth-child(3) > section > div > div.nxc5e30 > div, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal > div:nth-child(3) > section > div.nxc5e30 > div, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal > div:nth-child(3) > section > div > div.nxc5e30 > div {
+  gap: 1.2rem;
+}
+body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal > div:nth-child(3) > section > div.nxc5e30 > div > div > div > h2, body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal > div:nth-child(3) > section > div > div.nxc5e30 > div > div > div > h2, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal > div:nth-child(3) > section > div.nxc5e30 > div > div > div > h2, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal > div:nth-child(3) > section > div > div.nxc5e30 > div > div > div > h2 {
+  font-size: 2rem;
+}
+body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal > div:nth-child(3) > section > div.nxc5e30 > div > div:has(h3), body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal > div:nth-child(3) > section > div > div.nxc5e30 > div > div:has(h3), body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal > div:nth-child(3) > section > div.nxc5e30 > div > div:has(h3), body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal > div:nth-child(3) > section > div > div.nxc5e30 > div > div:has(h3) {
+  gap: 0.8rem;
+}
+body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal > div:nth-child(3) > section > div.nxc5e30 > div > div:has(h3) h3, body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal > div:nth-child(3) > section > div > div.nxc5e30 > div > div:has(h3) h3, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal > div:nth-child(3) > section > div.nxc5e30 > div > div:has(h3) h3, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal > div:nth-child(3) > section > div > div.nxc5e30 > div > div:has(h3) h3 {
+  font-size: 1.4rem;
+}
+body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal > div:nth-child(3) > section > div.nxc5e30 > div > div:has(h3) > ul, body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal > div:nth-child(3) > section > div > div.nxc5e30 > div > div:has(h3) > ul, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal > div:nth-child(3) > section > div.nxc5e30 > div > div:has(h3) > ul, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal > div:nth-child(3) > section > div > div.nxc5e30 > div > div:has(h3) > ul {
+  gap: 0.4rem;
+}
+body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal > div:nth-child(3) > section > div.nxc5e30 > div > div:has(h3) > ul li,
+body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal > div:nth-child(3) > section > div.nxc5e30 > div > div:has(h3) > ul h4, body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal > div:nth-child(3) > section > div > div.nxc5e30 > div > div:has(h3) > ul li,
+body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal > div:nth-child(3) > section > div > div.nxc5e30 > div > div:has(h3) > ul h4, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal > div:nth-child(3) > section > div.nxc5e30 > div > div:has(h3) > ul li,
+body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal > div:nth-child(3) > section > div.nxc5e30 > div > div:has(h3) > ul h4, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal > div:nth-child(3) > section > div > div.nxc5e30 > div > div:has(h3) > ul li,
+body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal > div:nth-child(3) > section > div > div.nxc5e30 > div > div:has(h3) > ul h4 {
+  font-size: 1.2rem;
+}
+body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal > div:nth-child(3) > section > div.nxc5e30 > div > div:has(h3) picture, body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal > div:nth-child(3) > section > div > div.nxc5e30 > div > div:has(h3) picture, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal > div:nth-child(3) > section > div.nxc5e30 > div > div:has(h3) picture, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal > div:nth-child(3) > section > div > div.nxc5e30 > div > div:has(h3) picture {
+  max-width: 8rem;
+}
+body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal > div:nth-child(3) > section > div.nxc5e30 > div > div:first-child, body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal > div:nth-child(3) > section > div > div.nxc5e30 > div > div:first-child, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal > div:nth-child(3) > section > div.nxc5e30 > div > div:first-child, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal > div:nth-child(3) > section > div > div.nxc5e30 > div > div:first-child {
+  gap: 1.2rem;
+}
+body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal > div:nth-child(3) > section > div.nxc5e30 > div > div:nth-child(2), body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal > div:nth-child(3) > section > div > div.nxc5e30 > div > div:nth-child(2), body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal > div:nth-child(3) > section > div.nxc5e30 > div > div:nth-child(2), body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal > div:nth-child(3) > section > div > div.nxc5e30 > div > div:nth-child(2) {
+  gap: 1.2rem;
+}
+body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal > div:nth-child(3) > section > div.nxc5e30 > div > div:nth-child(2) thead tr h2, body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal > div:nth-child(3) > section > div > div.nxc5e30 > div > div:nth-child(2) thead tr h2, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal > div:nth-child(3) > section > div.nxc5e30 > div > div:nth-child(2) thead tr h2, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal > div:nth-child(3) > section > div > div.nxc5e30 > div > div:nth-child(2) thead tr h2 {
+  padding: 0.4rem 0;
+  font-size: 1.4rem;
+}
+body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal > div:nth-child(3) > section #page-title, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal > div:nth-child(3) > section #page-title {
+  font-size: 2rem;
+}
+body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal > div:nth-child(3) > section #page-title + p, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal > div:nth-child(3) > section #page-title + p {
+  font-size: 1.2rem;
+}
+body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal > div:nth-child(3) > section header + div label span, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal > div:nth-child(3) > section header + div label span {
+  font-size: 1.4rem;
+}
+body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal > div:nth-child(3) > section header + div label + div > div #search, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal > div:nth-child(3) > section header + div label + div > div #search {
+  padding: 1.2rem 0.8rem 1.2rem 4rem;
+  font-size: 1.4rem;
+}
+body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal > div:nth-child(3) > section header + div label + div > div #search + svg, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal > div:nth-child(3) > section header + div label + div > div #search + svg {
+  width: 1.8rem;
+}
+body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal > div:nth-child(3) > section header + div + div [role=group] button, body.fpl-ux-enhanced:has(button[aria-label="View player information"]) #overlay-portal > div:nth-child(3) > section header + div + div [role=group] button {
+  height: 3rem;
+  padding: 0.4rem 1rem;
+  font-size: 1.2rem;
+}
+
+/*# sourceMappingURL=main.css.map */

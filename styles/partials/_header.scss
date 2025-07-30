@@ -1,0 +1,45 @@
+@use "../variables" as *;
+
+body.fpl-ux-enhanced {
+
+  &:has(li[aria-label="Bench Boost chip"]),
+  &:has(button[aria-label="View player information"]) {
+    #overlay-portal {
+      &>header {
+        display: grid;
+        grid-template-columns: 20rem 1fr;
+        align-items: center;
+        border-radius: 0;
+
+        &>div {
+          padding: .5rem 2.4rem;
+
+          img {
+            height: 2.4rem;
+          }
+        }
+
+        &>nav {
+          ul {
+            background: unset;
+            border-radius: 0;
+            backdrop-filter: unset;
+          }
+        }
+
+        &+div {
+          // display: none;
+
+          &:has([data-google-query-id]) {
+            display: none;
+          }
+
+          &+div {
+            grid-template-columns: 1fr 36rem;
+            padding-top: .8rem;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "fpl-ux-enhancer",
+  "version": "1.0.0",
+  "description": "Chrome extension to enhance the UX/UI of Fantasy Premier League website",
+  "main": "manifest.json",
+  "scripts": {
+    "build": "sass styles/main.scss styles/main.css --style compressed",
+    "watch": "sass styles/main.scss styles/main.css --watch",
+    "dev": "npm run build && npm run watch",
+    "clean": "rm -rf styles/main.css"
+  },
+  "keywords": [
+    "chrome-extension",
+    "fantasy-premier-league",
+    "fpl",
+    "ux",
+    "ui",
+    "scss"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "sass": "^1.69.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/fpl-ux-enhancer.git"
+  }
+} 

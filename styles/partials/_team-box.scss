@@ -1,0 +1,182 @@
+@use "../variables" as *;
+
+body.fpl-ux-enhanced {
+
+  &:has(li[aria-label="Bench Boost chip"]),
+  &:has(button[aria-label="View player information"]) {
+    #overlay-portal {
+      ._16mjapo4 {
+        &>section:first-child {
+          &>div {
+            padding: 1rem;
+            border-radius: .5rem;
+
+            &>div {
+              gap: .5rem;
+
+              #page-title {
+                font-size: 2rem;
+
+                &+div {
+                  margin-top: -3.5rem;
+                }
+
+                &+p {
+                  font-size: 1.2rem;
+                }
+              }
+
+              &>ul,
+              &>[data-variant="transfers-basic"] {
+                li {
+                  flex: unset;
+
+                  button {
+                    display: grid;
+                    grid-template-columns: 1.5rem 1fr 7rem;
+                    align-items: center;
+                    gap: .7rem;
+                    padding: .4rem .8rem;
+                    width: max-content;
+                    background-color: #7d5bff;
+
+                    span {
+                      margin-left: 0;
+                    }
+                  }
+                }
+
+                &+div {
+                  &>div {
+                    margin: .2rem auto;
+                    padding: 0;
+                    background-color: unset;
+
+                    span {
+                      color: white;
+                      font-size: 1rem;
+                    }
+                  }
+
+                  &+div[role="status"] {
+                    max-width: unset;
+                    margin: 0 auto .2rem auto;
+
+                    &>div>div {
+                      margin: 0 auto;
+                      padding: .1rem .6rem .2rem .6rem;
+                      background-color: white;
+                      border-radius: .4rem;
+
+                      span {
+                        // color: white;
+                        font-size: 1.2rem;
+                      }
+                    }
+                  }
+
+                  &+div,
+                  &+div[role="status"]+div {
+                    width: max-content;
+
+                    &>div {
+                      button {
+                        flex: unset;
+                        padding: .4rem .8rem;
+                        font-size: 1.2rem;
+                      }
+                    }
+
+                    &+div {
+                      zoom: .75;
+                      transform-origin: top center;
+
+                      button[data-pitch-element] {
+                        picture {
+                          &+div {
+                            &>span {
+                              font-size: 1.6rem;
+                            }
+
+                            div {
+                              span {
+                                font-size: 1.25rem;
+                              }
+                            }
+                          }
+                        }
+                      }
+
+                      &>div {
+                        align-items: center;
+
+                        &>div {
+                          max-width: 140rem;
+                          gap: 4rem;
+                        }
+                      }
+
+                      &+div {
+                        &:has(button) {
+                          position: sticky;
+                          bottom: 2rem;
+                          padding: .4rem;
+                          background: #1f0022;
+                          border-radius: 24px;
+
+                          button {
+                            opacity: 1 !important;
+                            box-shadow: 0 0 1.4rem rgba(31, 0, 34, .55);
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+
+              &>[data-variant="transfers-basic"] {
+                &>div {
+                  justify-content: center;
+                  max-width: 50rem;
+                  margin: 0 auto;
+
+                  &>div {
+                    gap: .6rem;
+                    padding: 0;
+
+                    h3 {
+                      font-size: 1.2rem;
+                    }
+
+                    [role="status"] {
+                      &>div {
+                        font-size: 1.6rem;
+                        padding: .4rem .6rem .2rem .6rem;
+                        border-radius: .4rem;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    &:has(li[aria-label="Bench Boost chip"]) {
+      #overlay-portal ._16mjapo4>section:first-child>div>div>ul+div+div+div {
+        zoom: .65;
+      }
+    }
+
+    &:has(table[aria-label="Squad List"]) {
+      #overlay-portal ._16mjapo4>section:first-child>div>div>[data-variant="transfers-basic"]+div+div+div {
+        zoom: 1;
+        max-height: calc(100dvh - 22rem);
+        overflow: auto;
+      }
+    }
+  }
+}

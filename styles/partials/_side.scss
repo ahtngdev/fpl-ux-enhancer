@@ -1,0 +1,118 @@
+@use "../variables" as *;
+
+body.fpl-ux-enhanced {
+
+  &:has(li[aria-label="Bench Boost chip"]),
+  &:has(button[aria-label="View player information"]) {
+    #overlay-portal {
+      &>div:nth-child(3) {
+        &>section {
+          order: 3;
+
+          &>div {
+            height: 100%;
+          }
+
+          &>div.nxc5e30,
+          &>div>div.nxc5e30 {
+            position: sticky;
+            top: 1rem;
+            right: 0;
+            max-height: calc(100dvh - 12rem);
+            padding: 1rem;
+            border-radius: 0.5rem;
+            background-color: unset;
+            overflow: auto;
+
+            &>div {
+              gap: 1.2rem;
+
+              &>div>div>h2 {
+                font-size: 2rem;
+              }
+
+              &>div:has(h3) {
+                gap: .8rem;
+
+                h3 {
+                  font-size: 1.4rem;
+                }
+
+                &>ul {
+                  gap: .4rem;
+
+                  li,
+                  h4 {
+                    font-size: 1.2rem;
+                  }
+                }
+
+                picture {
+                  max-width: 8rem;
+                }
+              }
+
+              &>div:first-child {
+                gap: 1.2rem;
+              }
+
+              &>div:nth-child(2) {
+                gap: 1.2rem;
+
+                thead {
+                  tr {
+                    h2 {
+                      padding: .4rem 0;
+                      font-size: 1.4rem;
+                    }
+                  }
+                }
+              }
+            }
+          }
+
+          #page-title {
+            font-size: 2rem;
+
+            &+p {
+              font-size: 1.2rem;
+            }
+          }
+
+          header {
+            &+div {
+              label {
+                span {
+                  font-size: 1.4rem;
+                }
+
+                &+div {
+                  &>div {
+                    #search {
+                      padding: 1.2rem .8rem 1.2rem 4rem;
+                      font-size: 1.4rem;
+
+                      &+svg {
+                        width: 1.8rem;
+                      }
+                    }
+                  }
+                }
+              }
+
+              &+div {
+                [role="group"] {
+                  button {
+                    height: 3rem;
+                    padding: .4rem 1rem;
+                    font-size: 1.2rem;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

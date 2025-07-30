@@ -1,0 +1,43 @@
+@use "../variables" as *;
+
+body.fpl-ux-enhanced {
+  .main-navigation-wrapper {
+    position: relative;
+    top: 0;
+    padding-bottom: 0;
+
+    .top-nav {
+      &__menu {
+        &-item {
+          display: flex;
+          align-items: center;
+          height: 2.5rem;
+          padding: 0 .5rem;
+        }
+
+        &-link {
+          font-size: 1rem;
+        }
+      }
+    }
+
+    .main-nav {
+      padding-top: .4rem;
+      padding-bottom: .4rem;
+
+      &__logo {
+        max-width: 8.6rem;
+        height: 3.2rem;
+      }
+
+      &__nav {
+
+        &-item .main-nav__nav-item-link,
+        &-button {
+          padding: .4rem .8rem;
+          font-size: 1.4rem;
+        }
+      }
+    }
+  }
+}
