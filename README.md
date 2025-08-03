@@ -5,7 +5,6 @@ A Chrome extension that enhances the UX/UI of the Fantasy Premier League website
 ## Demo
 
 [Video Demo](https://kodem.dev/fpl-ux-enhancer.mp4)
-https://kodem.dev/fpl-ux-enhancer.mp4
 
 ## How to install
 
