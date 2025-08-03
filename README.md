@@ -26,4 +26,4 @@ A Chrome extension that enhances the UX/UI of the Fantasy Premier League website
 3. All source files are included in the repository so you can verify that you are not installing any malware.
 4. I know the styles look like crap, but I couldn't decide whether to target CSS classes (and risk having it completely break when the developers upload a new build) or the structure. Ultimately, I ended up with a mix.
 
-Contact: [kodem.dev](https://kodem.dev){:target="\_blank"} | (kontakt@kodem.dev)[mailto:kontakt@kodem.dev]
+Contact: [kodem.dev](https://kodem.dev) | [kontakt@kodem.dev](mailto:kontakt@kodem.dev)

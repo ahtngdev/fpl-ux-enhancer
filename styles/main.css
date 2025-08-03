@@ -167,7 +167,7 @@ body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]) #overlay-portal ._16
   z-index: 20;
 }
 body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]):has(li[aria-label="Bench Boost chip"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > ul + div + div + div, body.fpl-ux-enhanced:has(button[aria-label="View player information"]):has(li[aria-label="Bench Boost chip"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > ul + div + div + div {
-  zoom: 0.65;
+  zoom: 0.7;
 }
 body.fpl-ux-enhanced:has(li[aria-label="Bench Boost chip"]):has(table[aria-label="Squad List"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > [data-variant=transfers-basic] + div + div + div, body.fpl-ux-enhanced:has(button[aria-label="View player information"]):has(table[aria-label="Squad List"]) #overlay-portal ._16mjapo4 > section:first-child > div > div > [data-variant=transfers-basic] + div + div + div {
   zoom: 1;
