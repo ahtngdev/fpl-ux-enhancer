@@ -10,7 +10,7 @@ body {
   background: linear-gradient(135deg, #37003c, #2a002e);
   color: white;
   width: 320px;
-  min-height: 400px;
+  min-height: 330px;
 }
 
 .popup-container {
@@ -18,6 +18,7 @@ body {
   height: 100%;
   display: flex;
   flex-direction: column;
+  border-radius: 12px;
 }
 
 .popup-header {
@@ -141,3 +142,12 @@ body {
   font-size: 0.8em;
   opacity: 0.7;
 } 
+
+.popup-footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.popup-footer a:hover {
+  text-decoration: underline;
+}
